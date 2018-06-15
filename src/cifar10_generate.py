@@ -1,5 +1,7 @@
 import numpy as np
+import matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+#import matplotlib
 #plt.use('Agg')
 from scipy.stats import norm
 import keras
