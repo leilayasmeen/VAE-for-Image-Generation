@@ -1,5 +1,6 @@
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib as plt
+plt.use('Agg')
 from scipy.stats import norm
 import keras
 from keras.layers import Input, Dense, Lambda, Flatten, Reshape, Layer
